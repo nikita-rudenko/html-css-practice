@@ -1,0 +1,91 @@
+* {
+	font-family: 'montserrat', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	background: #d3d9e6;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1;
+	height: 100vh;
+	position: relative;
+}
+
+.countdown-col {
+	background: url('../img/background.jpg') no-repeat center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.time {
+	color: #fff;
+	text-transform: uppercase;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.time span {
+	padding: 0 14px;
+	font-size: 10px;
+}
+
+.time span div {
+	font-size: 40px;
+}
+
+.newsletter {
+	width: 90%;
+}
+
+.newsletter h4 {
+	font-style: italic;
+	text-transform: lowercase;
+	font-size: 1rem;
+}
+
+.newsletter input {
+	display: block;
+	margin: 12px auto;
+	width: 100%;
+	max-width: 400px;
+	padding: 14px 20px;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+.newsletter-btn {
+	background: linear-gradient(125deg, #3498db, #34495e);
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 0.8rem;
+	font-weight: 900;
+}
+
+.newsletter-btn:hover {
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+	.col {
+		flex: 100%;
+	}
+}
