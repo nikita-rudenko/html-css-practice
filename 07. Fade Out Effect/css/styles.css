@@ -1,0 +1,60 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+.section-top {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	background: url('../img/bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: slide 10s infinite;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content h1 {
+	color: #fff;
+	font-size: 3rem;
+}
+
+.content a {
+	background: #098;
+	color: #fff;
+	padding: 10px 24px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	border-radius: 10px;
+}
+
+article {
+	font-size: 1.1rem;
+	padding: 10px;
+	line-height: 24px;
+}
+
+@keyframes slide {
+	0% {
+		background-image: url('../img/bg1.jpg');
+	}
+	33% {
+		background-image: url('../img/bg2.jpeg');
+	}
+	66% {
+		background-image: url('../img/bg3.jpeg');
+	}
+}
