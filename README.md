@@ -8,3 +8,4 @@ Practicing HTML/CSS by creating websites and uploading to this repo.
 4.  Bootstrap Landing Page [Drew Ryan](https://www.youtube.com/watch?v=Zn64_IVLO88)
 5.  Parallax Effect [Traversy Media](https://www.youtube.com/watch?v=JttTcnidSdQ)
 6.  Coming Soon Page [DarkCode](https://www.youtube.com/watch?v=uoMkz1cXOcY&t)
+7.  Backgrounds Fade out Effect[DarkCode](https://www.youtube.com/watch?v=Vr4Ay4td3xU)
