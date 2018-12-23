@@ -93,12 +93,14 @@ input[type='telephone'] {
 	display: block;
 	margin-bottom: 20px;
 	padding: 10px 10px 10px 50px;
-	border: 0;
+	border: 2px solid #222;
 	border-radius: 4px;
 	background: url('../img/inputs.png') no-repeat;
 	background-color: #222;
 	font-size: 16px;
 	color: #fff;
+	float: left;
+	clear: both;
 }
 
 input[type='email'] {
@@ -142,3 +144,27 @@ input[type='submit'] {
 }
 
 /* 6 - INPUT VALIDATION STYLES */
+
+input[type='email']:valid,
+input[type='telephone']:valid {
+	border: 2px solid #fff;
+}
+
+input[type='email']:valid {
+	background-position: 7px -22px;
+}
+
+input[type='telephone']:valid {
+	background-position: 7px -97px;
+}
+
+input[type='email']:valid + .tick,
+input[type='telephone']:valid + .tick {
+	background: url('../img/tick.png') center;
+	background-size: 100%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 10px;
+}
