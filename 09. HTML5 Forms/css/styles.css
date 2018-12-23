@@ -111,4 +111,34 @@ input[type='telephone'] {
 
 /* 5 - SELECT BOXES */
 
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+
+	display: block;
+	margin: 30px 0;
+	padding: 10px 50px 10px 10px;
+	background: url('../img/select.png') no-repeat 95% center;
+	background-color: #222;
+	color: #fff;
+	border-radius: 4px;
+	border: 2px solid #fff;
+	width: 280px;
+}
+
+input[type='submit'] {
+	background: #b61111;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	border-radius: 4px;
+	border: 0;
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+	width: 280px;
+}
+
 /* 6 - INPUT VALIDATION STYLES */
