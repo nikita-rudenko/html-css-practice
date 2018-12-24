@@ -11,3 +11,4 @@ Practicing HTML/CSS by creating websites and uploading to this repo.
 7.  Backgrounds Fade out Effect [DarkCode](https://www.youtube.com/watch?v=Vr4Ay4td3xU)
 8.  Split Landing Page [Traversy Media](https://www.youtube.com/watch?v=oRmQN244Ir0)
 9.  Styling an HTML5 Form Playlist [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g5_p_BVUGWykHfqx6bb7qK)
+10. CSS3 Pricing Tables [Traversy Media](https://www.youtube.com/watch?v=7rJ5rhdVvOo)
