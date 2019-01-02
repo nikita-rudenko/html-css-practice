@@ -13,3 +13,4 @@ Practicing HTML/CSS by creating websites and uploading to this repo.
 9.  Styling an HTML5 Form Playlist [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g5_p_BVUGWykHfqx6bb7qK)
 10. CSS3 Pricing Tables [Traversy Media](https://www.youtube.com/watch?v=7rJ5rhdVvOo)
 11. Fullscreen Video Background [Traversy Media](https://www.youtube.com/watch?v=Xy3GlrddZFI)
+12. Pluralsight Clone Login Page [Traversy Media](https://www.youtube.com/watch?v=wIx1O5Y5EB4)
