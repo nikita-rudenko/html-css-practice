@@ -14,3 +14,5 @@ Practicing HTML/CSS by creating websites and uploading to this repo.
 10. CSS3 Pricing Tables [Traversy Media](https://www.youtube.com/watch?v=7rJ5rhdVvOo)
 11. Fullscreen Video Background [Traversy Media](https://www.youtube.com/watch?v=Xy3GlrddZFI)
 12. Pluralsight Clone Login Page [Traversy Media](https://www.youtube.com/watch?v=wIx1O5Y5EB4)
+13. Materialize CSS Travel Agency [Traversy Media](https://www.youtube.com/watch?v=MaP3vO-vEsg)
+14. Booklist App OOJS [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58)
