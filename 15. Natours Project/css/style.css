@@ -25,8 +25,8 @@ body {
   box-sizing: border-box; }
 
 .header {
-  height: 95vh;
-  background-image: linear-gradient(to right bottom, #55c57a, #28b485), url(../img/hero.jpg);
+  height: 85vh;
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
