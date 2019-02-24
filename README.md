@@ -1,6 +1,6 @@
-# 30 Sites in 30 Days
+# HTML & CSS Practice
 
-Practicing HTML/CSS by creating websites and uploading to this repo.
+Practicing HTML & CSS by creating websites and uploading to this repo.
 
 1.  Acme Web Design [Traversy Media](https://www.youtube.com/watch?v=Wm6CUkswsNw)
 2.  Elegant Blur Landing [Traversy Media](https://www.youtube.com/watch?v=HZv8YHYUHTU)
@@ -16,3 +16,4 @@ Practicing HTML/CSS by creating websites and uploading to this repo.
 12. Pluralsight Clone Login Page [Traversy Media](https://www.youtube.com/watch?v=wIx1O5Y5EB4)
 13. Materialize CSS Travel Agency [Traversy Media](https://www.youtube.com/watch?v=MaP3vO-vEsg)
 14. Booklist App OOJS [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58)
+15. Natours Project [Advanced CSS and Sass](https://www.udemy.com/advanced-css-and-sass/)
