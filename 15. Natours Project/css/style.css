@@ -111,6 +111,20 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden; }
+  .bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -322,7 +336,7 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -430,5 +444,5 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
-  background-color: #f7f7f7;
+  position: relative;
   padding: 15rem 0; }
