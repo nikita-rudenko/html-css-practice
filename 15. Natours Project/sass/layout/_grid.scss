@@ -12,6 +12,7 @@
 
 	@include respond(tab-port) {
 		width: 50rem;
+		padding: 0 3rem;
 	}
 
 	@include clearfix;
