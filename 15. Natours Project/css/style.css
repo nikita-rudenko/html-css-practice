@@ -89,7 +89,7 @@ body {
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
-        font-family: 5rem; } }
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -642,6 +642,9 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -670,6 +673,14 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer; }
+  @media only screen and (max-width: 56.25em) {
+    .navigation__button {
+      top: 4rem;
+      right: 4rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__button {
+      top: 3rem;
+      right: 3rem; } }
 
 .navigation__background {
   height: 6rem;
@@ -681,6 +692,14 @@ body {
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  @media only screen and (max-width: 56.25em) {
+    .navigation__background {
+      top: 4.5rem;
+      right: 4.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__background {
+      top: 3rem;
+      right: 3rem; } }
 
 .navigation__nav {
   height: 100vh;
