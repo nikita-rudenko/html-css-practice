@@ -582,6 +582,14 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  @media only screen and (max-width: 56.25em) {
+    .story {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .story {
+      transform: skewX(0); } }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -592,12 +600,18 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translate(-3rem) skewX(12deg);
     position: relative; }
+    @media only screen and (max-width: 37.5em) {
+      .story__shape {
+        transform: translateX(-3rem) skewX(0); } }
   .story__image {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
+    @media only screen and (max-width: 37.5em) {
+      .story__text {
+        transform: skewX(0); } }
   .story__caption {
     position: absolute;
     top: 50%;
