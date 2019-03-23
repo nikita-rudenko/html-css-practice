@@ -420,6 +420,8 @@ body {
   transition: transform 0.3s; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
+      margin: 0 auto;
+      width: 80%;
       padding: 2rem; } }
   .feature-box__icon {
     font-size: 6rem;
@@ -794,8 +796,8 @@ body {
       right: 4.5rem; } }
   @media only screen and (max-width: 37.5em) {
     .navigation__background {
-      top: 3rem;
-      right: 3rem; } }
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navigation__nav {
   height: 100vh;

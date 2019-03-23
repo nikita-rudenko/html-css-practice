@@ -8,6 +8,8 @@
 	transition: transform 0.3s;
 
 	@include respond(tab-port) {
+		margin: 0 auto;
+		width: 80%;
 		padding: 2rem;
 	}
 
