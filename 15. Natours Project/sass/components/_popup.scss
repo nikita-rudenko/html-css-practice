@@ -21,11 +21,25 @@
 		opacity: 0;
 		transform: translate(-50%, -50%) scale(0.25);
 		transition: all 0.4s 0.2s;
+
+		@include respond(tab-port) {
+			width: 90%;
+			text-align: center;
+		}
 	}
 
 	&__left {
 		width: 33.33333%;
 		display: table-cell;
+
+		@include respond(tab-port) {
+			display: block;
+			width: 100%;
+		}
+
+		@include respond(phone) {
+			display: none;
+		}
 	}
 
 	&__right {
@@ -33,11 +47,25 @@
 		display: table-cell;
 		vertical-align: middle;
 		padding: 3rem 5rem;
+
+		@include respond(tab-port) {
+			display: block;
+			width: 100%;
+		}
 	}
 
 	&__img {
 		display: block;
 		width: 100%;
+
+		@include respond(tab-port) {
+			display: inline;
+			max-width: 35%;
+			min-height: 200px;
+			object-fit: cover;
+			padding: 2rem;
+			border-radius: 3rem;
+		}
 	}
 
 	&__text {
@@ -49,6 +77,11 @@
 		column-rule: 1px solid $color-grey-light-2;
 
 		hyphens: auto;
+
+		@include respond(tab-port) {
+			text-align: left;
+			column-count: 1;
+		}
 	}
 
 	// Open states
